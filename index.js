@@ -1,4 +1,4 @@
-mapboxgl.accessToken = process.env.MAPBOX_TOKEN
+mapboxgl.accessToken = config.MAPBOX_TOKEN
 
 const stationURL = "https://gbfs.citibikenyc.com/gbfs/es/station_information.json"
 const statusURL = "https://gbfs.citibikenyc.com/gbfs/es/station_status.json"
